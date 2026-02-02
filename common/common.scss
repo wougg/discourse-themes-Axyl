@@ -1,0 +1,14 @@
+:root {
+  --d-border-radius: 8px;
+}
+
+.btn,
+.input,
+.select-kit-header {
+  border-radius: var(--d-border-radius);
+  transition: all 0.2s ease-in-out;
+}
+
+.alert {
+  border-radius: var(--d-border-radius);
+}

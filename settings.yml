@@ -1,0 +1,4 @@
+site_name:
+  default: 'Obby Forum'
+  type: string
+  description: 'The name of your site.'

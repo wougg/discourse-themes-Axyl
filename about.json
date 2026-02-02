@@ -1,0 +1,40 @@
+{
+    "name": "Axyl",
+    "component": false,
+    "license_url": null,
+    "about_url": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966",
+    "authors": "Crashout",
+    "theme_version": "0.1",
+    "minimum_discourse_version": "3.5.0",
+    "assets": {},
+    "modifiers": {},
+    "color_schemes": {
+        "Axyl Light": {
+            "primary": "4c4f69",
+            "secondary": "eff1f5",
+            "tertiary": "1e66f5",
+            "quaternary": "acb0be",
+            "header_background": "eff1f5",
+            "header_primary": "4c4f69",
+            "highlight": "df8e1d",
+            "danger": "d20f39",
+            "success": "40a02b",
+            "love": "8839ef",
+            "selected": "e6e9ef"
+        },
+        "Axyl Dark": {
+            "primary": "cdd6f4",
+            "secondary": "14141b",
+            "tertiary": "89b4fa",
+            "quaternary": "45475a",
+            "header_background": "14141b",
+            "header_primary": "cdd6f4",
+            "highlight": "f5c2e7",
+            "danger": "f38ba8",
+            "success": "a6e3a1",
+            "love": "f5c2e7",
+            "selected": "313244",
+            "hover": "45475a"
+        }
+    }
+}
