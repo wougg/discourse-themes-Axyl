@@ -23,12 +23,12 @@
             "selected": "e6e9ef"
         },
         "Axyl Dark": {
-            "primary": "14141b",
+            "primary": "ffffff",
             "secondary": "14141b",
             "tertiary": "89b4fa",
             "quaternary": "45475a",
             "header_background": "14141b",
-            "header_primary": "cdd6f4",
+            "header_primary": "ffffff",
             "highlight": "f5c2e7",
             "danger": "f38ba8",
             "success": "a6e3a1",
