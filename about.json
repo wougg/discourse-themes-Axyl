@@ -4,7 +4,7 @@
     "license_url": null,
     "about_url": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966",
     "authors": "WOU",
-    "theme_version": "0.1.0",
+    "theme_version": "0.1.1",
     "minimum_discourse_version": "3.5.0",
     "assets": {},
     "modifiers": {},
