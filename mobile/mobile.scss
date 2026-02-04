@@ -1,0 +1,22 @@
+@media screen and (max-width: 767px) {
+  :root {
+    --theme-gutter: 1.1rem;
+  }
+
+  .topic-post,
+  .topic-body {
+    padding: 1.1rem 1.2rem;
+  }
+
+  .topic-list {
+    border-radius: var(--d-border-radius);
+  }
+
+  .topic-list .topic-list-data {
+    padding: 0.75rem 0.65rem;
+  }
+
+  .d-header {
+    backdrop-filter: blur(12px);
+  }
+}
