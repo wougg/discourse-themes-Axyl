@@ -4,16 +4,6 @@
   --theme-gutter: 1.25rem;
 }
 
-@if #{schemeType()} == dark {
-  :root {
-    --theme-row-hover: #1f2937;
-  }
-} @else {
-  :root {
-    --theme-row-hover: #f6f7fb;
-  }
-}
-
 .wrap,
 .d-header .contents,
 .admin-container {
@@ -30,12 +20,6 @@
 .d-editor-input,
 .alert {
   border-radius: var(--d-border-radius);
-}
-
-.topic-list > tbody > tr:hover,
-.latest-topic-list-item:hover {
-  background: var(--theme-row-hover);
-  transition: background 0.25s ease;
 }
 
 .nav-pills > li > a {
