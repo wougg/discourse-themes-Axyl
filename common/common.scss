@@ -2,12 +2,16 @@
   --d-border-radius: 8px;
   --theme-max-width: 96rem;
   --theme-gutter: 1.25rem;
-  --theme-row-hover: #f6f7fb;
 }
 
-.dark,
-html[data-theme="dark"] {
-  --theme-row-hover: #1f2937;
+@if #{schemeType()} == dark {
+  :root {
+    --theme-row-hover: #1f2937;
+  }
+} @else {
+  :root {
+    --theme-row-hover: #f6f7fb;
+  }
 }
 
 .wrap,
