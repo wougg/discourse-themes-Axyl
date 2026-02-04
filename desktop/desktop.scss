@@ -1,13 +1,5 @@
 @media screen and (min-width: 1000px) {
   :root {
-    --theme-gutter: var(--theme-gutter-lg);
-  }
-
-  .topic-list .topic-list-data {
-    padding: 1.1rem 1rem;
-  }
-
-  .topic-post {
-    padding: 2rem 2.25rem;
+    --theme-gutter: 1.5rem;
   }
 }
