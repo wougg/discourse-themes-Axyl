@@ -1,7 +1,13 @@
 :root {
   --d-border-radius: 8px;
-  --theme-max-width: 96rem;
+  --theme-max-width: 32rem;
   --theme-gutter: 1.25rem;
+  --theme-row-hover: #f6f7fb;
+}
+
+.dark,
+html[data-theme="dark"] {
+  --theme-row-hover: #1f2937;
 }
 
 .wrap,
@@ -24,7 +30,8 @@
 
 .topic-list > tbody > tr:hover,
 .latest-topic-list-item:hover {
-  background: #f6f7fb;
+  background: var(--theme-row-hover);
+  transition: background 0.2s ease;
 }
 
 .nav-pills > li > a {
